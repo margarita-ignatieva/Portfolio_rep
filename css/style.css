@@ -1,0 +1,163 @@
+* {
+  height: 100%;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+  position: fixed;
+  padding: 20px 40px;
+  height: 80px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: teal;
+}
+
+.logo {
+  font-size: 24px;
+  letter-spacing: 1.2;
+  border: 2px solid rgb(0, 70, 70);
+  padding: 5px 15px;
+  border-radius: 4px;
+}
+
+.section-links a {
+  text-decoration: none;
+
+  color: white;
+  font-size: 20px;
+  margin-right: 40px;
+}
+
+.section-links {
+  margin-left: 150px;
+  padding: 5px 15px;
+}
+
+.welcome-section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  padding: 30px 50px;
+  height: 100vh;
+  width: 100%;
+}
+
+.welcome-section p {
+  margin-top: -900px;
+}
+
+.welcome-content {
+  width: 500px;
+  height: 100%;
+}
+
+.welcome-title {
+  margin-top: 100px;
+}
+
+.person-image img {
+  margin-top: 80px;
+  height: 400px;
+}
+
+.project-tile img {
+  padding: 20px 40px;
+  height: 350px;
+  width: 450px;
+}
+
+@media (max-width: 767px) {
+  .project-tile img {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+.about,
+.contact {
+  height: 300px;
+  margin-bottom: 30px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 30px 50px;
+  font-size: 18px;
+  line-height: 1.8;
+  color: white;
+  background-color: teal;
+}
+
+.about h3 {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.work {
+  background-color: rgb(0, 95, 95);
+  padding: 30px 50px;
+
+  text-align: center;
+  color: white;
+}
+
+.work h3 {
+  margin-top: 30px;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.project-tile {
+  margin-top: -500px;
+}
+
+.project-tile a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+.contact {
+  background-color: teal;
+  padding: 30px 50px;
+}
+
+.contact h3 {
+  margin-top: 30px;
+  font-size: 30px;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+}
+
+.contact a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  margin-top: -200px;
+}
+
+.project-title {
+  height: 400px;
+  width: 400px;
+}

@@ -1,21 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      @media screen and (min-width: 480px) {
+        body {
+          background-color: rgb(3, 202, 202);
+        }
+      }
+    </style>
   </head>
 
   <body>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <div class="main">
+      <div id="navbar" class="navbar">
+        <div class="logo">My Resume</div>
+        <div class="section-links">
+          <a href="#about">About</a>
+          <a href="#work">Work</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+      <div id="welcome-section" class="welcome-section">
+        <div class="welcome-content">
+          <h1 class="welcome-title">I'm a designer</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+            amet autem ratione facilis ducimus modi, laudantium at! Assumenda
+            saepe exercitationem modi. Quia ex optio quidem nobis possimus alias
+            adipisci. Obcaecati!
+          </p>
+        </div>
+        <div class="person-image">
+          <img
+            src="https://cdn.expertise.com/uploads/Alan-Schwartz.jpg"
+            alt=""
+          />
+        </div>
+      </div>
 
-    <section id="welcome-section">
-      <h1>My Porfolio is here</h1>
-      
-    </section>
-    <section id="projects">
-      <h3 class="project-title">Git portfolio project</h3>
-    </section>
-    <script  src="js/index.js"></script>
+      <div id="about" class="about">
+        <h3>About Me</h3>
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, odit
+          id. Esse vel, fuga iusto aperiam cupiditate voluptatem autem soluta
+          quia quos placeat illum ipsa eius neque veniam nulla, ipsam fugit
+          corrupti totam laboriosam animi rem. Eaque doloremque totam neque
+          mollitia tempora maxime, illum esse fugiat, accusantium molestias odit
+          deleniti repellat. Asperiores, incidunt magni. Distinctio nisi optio
+          culpa? Obcaecati tenetur inventore culpa, autem impedit facere
+          suscipit. Recusandae harum accusamus provident. Commodi, veritatis
+          obcaecati, ab error distinctio ducimus quis in, repudiandae eum unde
+          ex nesciunt earum cum labore quisquam. Veritatis iure fuga et numquam
+          nulla odit maxime voluptatibus suscipit porro itaque!
+        </p>
+      </div>
+      <div id="work" class="work">
+        <h3>My Work</h3>
+        <div id="projects">
+          <h3 class="project-title"></h3>
+          <div class="project-tile">
+            <a href="#">Project Page</a>
+          </div>
+        </div>
+      </div>
+
+      <div id="contact" class="contact">
+        <h3>Contact Me</h3>
+        <a
+          id="profile-link"
+          href="https://www.freecodecamp.org/learn"
+          target="_blank"
+          >GitHub Profile</a
+        >
+      </div>
+    </div>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="js/index.js"></script>
   </body>
 </html>
